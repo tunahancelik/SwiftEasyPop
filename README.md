@@ -61,5 +61,8 @@ SwiftEasyPop allows for extensive customization of alerts and toasts. You can se
 ### Contribution
 Contributions are welcome! Please read the contribution guidelines first.
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tunahancelik)
+
+
 ### License
 SwiftEasyPop is released under the MIT License.
