@@ -19,3 +19,45 @@ You can add SwiftEasyPop to your project via Swift Package Manager. Add the foll
 dependencies: [
     .package(url: "https://github.com/tunahancelik/SwiftEasyPop.git", from: "1.0.0")
 ]
+```
+## Usage
+Import SwiftEasyPop into your SwiftUI view and use the provided modifiers to present alerts and toasts.
+
+```swift
+import SwiftUI
+import SwiftEasyPop
+
+struct ContentView: View {
+    @State private var showAlert = false
+    @State private var showToast: EasyToastView? = nil
+
+    var body: some View {
+        // Your view code
+    }
+}
+```
+
+### Showing an Alert
+```swift
+// Use EasyAlertPop to show custom alerts
+Button("Show Alert") {
+    showAlert = true
+}
+.easyAlertPop(presentAlert: $showAlert, alertType: .constant(.oneButton(...)))
+```
+### Showing a Toast
+```swift
+// Use EasyToastView to show custom toasts
+Button("Show Toast") {
+    showToast = EasyToastView(...)
+}
+.toastView(toast: $showToast)
+````
+### Customization
+SwiftEasyPop allows for extensive customization of alerts and toasts. You can set custom icons, messages, colors, and more.
+
+### Contribution
+Contributions are welcome! Please read the contribution guidelines first.
+
+### License
+SwiftEasyPop is released under the MIT License.
