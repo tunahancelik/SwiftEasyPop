@@ -8,6 +8,8 @@ SwiftEasyPop is a lightweight and easy-to-use SwiftUI library for displaying cus
 - 🎨 Highly customizable, supporting custom icons, colors, and messages.
 - 📱 Compatible with iOS 14.0+.
 - 🔄 Supports both light and dark mode.
+  
+![SwiftEasyPop](SwiftEasyPop.jpg)
 
 ## Installation
 
