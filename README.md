@@ -63,3 +63,5 @@ Contributions are welcome! Please read the contribution guidelines first.
 
 ### License
 SwiftEasyPop is released under the MIT License.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tunahancelik)
